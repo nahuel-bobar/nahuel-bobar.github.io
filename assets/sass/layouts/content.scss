@@ -298,7 +298,71 @@ button.copy-button {
   }
 }
 
-// Custom Homepage Profile Layout
+.home-profile {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+
+  img {
+    width: 35%; 
+    border-radius: $radius; 
+    object-fit: cover;
+  }
+
+.bio {
+    flex: 1;
+    
+    // The big name header
+    .profile-name {
+      font-size: 2.8rem;
+      font-weight: bold;
+      margin-top: 0; 
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+      border-bottom: none; 
+    }
+    
+    // Make bio paragraphs larger
+    p { 
+      font-size: 1.15rem; 
+      margin-bottom: 1rem; 
+    }
+
+    // Align bullets and match paragraph size
+    ul {
+      margin-left: 0;
+      padding-left: 2.5rem; // Pulls the bullets perfectly under the header
+      margin-top: 0.5rem; 
+      li {
+        font-size: 1.15rem;
+        margin-bottom: 0.85rem;
+      }
+    }
+    // New block for the email line
+    .contact-info {
+      font-size: 0.95rem; // Reduces the font size
+      margin-top: 3rem;   // Pushes the text lower down the page
+      color: var(--fg4);  // Optional: Dims the text slightly to match the theme's footnote style
+    }
+  }
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .bio .profile-name {
+      text-align: center; // Centers the name on mobile phones
+    }
+  }
+}// Custom Homepage Profile Layout
 .home-profile {
   display: flex;
   flex-direction: row;
@@ -329,4 +393,27 @@ button.copy-button {
       margin: 0 auto;
     }
   }
+}
+
+// Center the animation container
+.lottie-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+// Smooth transition for the color flip
+.lottie-invert {
+  transition: filter 0.3s ease;
+  filter: none; 
+}
+
+// Listen ONLY to the specific class injected by main.js
+body.darkmode .lottie-invert {
+  filter: invert(1) hue-rotate(180deg) brightness(1.2); 
+}
+
+// Increase the font size of the top navigation tags
+#header > nav > span > a {
+  font-size: 1.45rem !important; 
 }
