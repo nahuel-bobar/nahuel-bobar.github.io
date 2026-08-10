@@ -1,0 +1,25 @@
+#+TITLE: Curriculum Vitae
+#+AUTHOR: Nahuel Bobar
+#+OPTIONS: toc:nil num:nil
+
+* Configuration and Export Setup :noexport:
+#+LATEX_CLASS: moderncv
+#+LATEX_CLASS_OPTIONS: [11pt,a4paper,sans]
+#+LATEX_HEADER: \moderncvstyle{classic}
+#+LATEX_HEADER: \moderncvcolor{burgundy}
+# ... other moderncv headers ...
+
+* Contact Information :private:
+- *Email:* contact.pseudonym@duck.com
+
+* Education
+#+INCLUDE: "./org-content/education.org" :lines "4-"
+
+* Work Experience
+#+INCLUDE: "./org-content/experience.org" :lines "4-"
+
+* Highlighted Courses
+#+INCLUDE: "./org-content/courses.org" :lines "4-"
+
+* Conferences Attended
+#+INCLUDE: "./org-content/conferences.org" :lines "4-"

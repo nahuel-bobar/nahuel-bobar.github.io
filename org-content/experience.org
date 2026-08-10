@@ -1,0 +1,7 @@
+#+TITLE: Work Experience
+#+HUGO_SECTION: experience
+#+HUGO_WEIGHT: 20
+
+* Teaching Assistant
+- *Institution:* Facultad de Ciencias Exactas y Naturales (FCEyN), Universidad de Buenos Aires
+- *Dates:* 2025

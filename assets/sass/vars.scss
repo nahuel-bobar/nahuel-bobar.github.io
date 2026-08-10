@@ -1,0 +1,13 @@
+@import "gruvbox.scss";
+
+// https://grtcalculator.com/math/
+
+$phi: 1.618;
+$f: (2.4rem / ($phi * $phi));
+
+$radius: 0.3rem;
+$margin: 1.1rem;
+$max-width: 68vw;
+$padding: ((100vw - $max-width) / 2);
+$border: 2px;
+$mobile-breakpoint: 768px;

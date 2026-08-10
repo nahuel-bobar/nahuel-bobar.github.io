@@ -1,0 +1,19 @@
+#+TITLE: Highlighted Courses
+#+HUGO_SECTION: courses
+#+HUGO_WEIGHT: 30
+
+* Mathematics Coursework
+- *Algebra II (Groups, Rings and Modules)* — Grade: 10
+- *Algebra III (Galois Theory)* — Grade: 10
+- *Linear Algebra* — Grade: 10
+- *Homological Algebra* — Grade: 10
+- *Topics in Galois - Grothendieck Theory* — Grade: 10
+- *Introduction to Category Theory* — Grade: 10
+- *Arithmetic of Elliptic Curves* — Grade: 10
+- *Differential Geometry* — Grade: 10
+- *Functional Analysis* — Grade: 10
+- *Measure Theory* — Grade: 10
+- *Topology* — Grade: 10
+- *Algebraic Geometry*
+- *Algebraic Topology*
+- *Differential Topology*

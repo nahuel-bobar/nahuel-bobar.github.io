@@ -1,0 +1,28 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahuel-bobar/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nahuel-bobar/website/issues"
+  },
+  "homepage": "https://github.com/nahuel-bobar/website#readme",
+  "dependencies": {
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1",
+    "sass-embedded": "^1.100.0"
+  }
+}

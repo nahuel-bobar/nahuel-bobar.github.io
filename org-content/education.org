@@ -1,0 +1,10 @@
+#+TITLE: Education
+#+HUGO_SECTION: education
+#+HUGO_WEIGHT: 10
+
+* Licenciatura en matemática (Equivalent to Master in Math)
+- *Institution:* Universidad De Buenos Aires (UBA) FCEyN
+- *Location:* Buenos Aires, Argentina
+- *Dates:* 2020 - 2026
+- *Average:* 9.85
+- *MSc. Thesis:* /An introduction to the Fukaya category and gentle algebras/

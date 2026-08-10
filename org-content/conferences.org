@@ -1,0 +1,12 @@
+#+TITLE: Conferences Attended
+#+HUGO_SECTION: conferences
+#+HUGO_WEIGHT: 40
+
+* Academic Conferences and Schools
+- *CIMPA School: Crossroads of Geometry, Representation Theory and Higher Structures* (Argentina) — /Grant from CIMPA/
+- *Topics in K-theory and Noncommutative Geometry (NCG)* (Argentina)
+- *XXIV Coloquio Latinoamericano de Álgebra* (Chile) — /Grant from CIMPA/
+- *V Latin American School of Algebraic Geometry (ELGA V)* (Brazil) — /Grant from IMPA/
+- *Geometric Models in Representation Theory and Beyond* (Trondheim, Norway) — /Grant from The Norwegian Academy of Science and Letters/
+- *CIMPA School: Bridgeland Stability and Applications* (Brazil) — /Grant from CIMPA/
+- *12th Heidelberg Laureate Forum* (Germany) — /Grant from HLF Foundation/
