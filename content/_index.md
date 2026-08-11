@@ -9,7 +9,7 @@ draft = false
 
 <div class="bio">
 <h1 class="profile-name">Nahuel Bobar</h1>
-<p>Since April 2026 I am a PhD student at Instituto de Investigaciones Matemática "Luis A. Santaló" working under the supervision of <a href=https://sites.google.com/view/hipolitotreffinger/hipolito-treffinger> Hipolito Treffinger</a>. </p>
+<p>Since April 2026, I have been a PhD student at Instituto de Investigaciones Matemáticas "Luis A. Santaló" working under the supervision of <a href="https://sites.google.com/view/hipolitotreffinger"</a>. </p>
 
 <h2>Research interests:</h2>
 <ul style="margin-top: 0;">
