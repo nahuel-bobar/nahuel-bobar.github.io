@@ -1,4 +1,4 @@
-baseURL = "https://<your-github-username>.github.io/"
+baseURL = "https://nahuel-bobar.github.io/"
 disqusShortname = ""
 enableGitInfo = true
 enableRobotsTXT = true
