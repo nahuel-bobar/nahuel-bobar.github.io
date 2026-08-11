@@ -28,12 +28,12 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-     - name: Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-     - name: Install CSS Tools
+      - name: Install CSS Tools
         run: |
           npm init -y
           npm install postcss postcss-cli autoprefixer sass-embedded 
