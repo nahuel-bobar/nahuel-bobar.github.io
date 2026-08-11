@@ -31,12 +31,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install CSS Tools
         run: |
           npm init -y
-          npm install postcss postcss-cli autoprefixer sass-embedded 
+          npm install postcss postcss-cli autoprefixer
+          npm install -g sass-embedded
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
